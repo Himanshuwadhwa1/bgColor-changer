@@ -1,0 +1,77 @@
+
+.container{
+    background-color: #dddd;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60%;
+    position: relative;
+    top: 600px;
+    left: 150px;
+}
+.colors{
+    display: flex;
+    gap: 26px;
+}
+
+.colors .red{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 24px;
+    width: 35px;
+    border-radius: 6px;
+}
+.colors .green{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 24px;
+    width: 45px;
+    border-radius: 6px;
+}
+.colors .blue{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 24px;
+    width: 39px;
+    border-radius: 6px;
+}
+.colors .yellow{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 50px;
+    border-radius: 6px;
+}
+.colors .black{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 24px;
+    width: 44px;
+    border-radius: 6px;
+}
+.colors .reset{
+    background-color: #dddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 24px;
+    width: 44px;
+    border-radius: 6px;
+}
